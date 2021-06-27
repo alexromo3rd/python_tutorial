@@ -1,5 +1,7 @@
-day_hours = 24
-week_days = 7
+x = 10
+y = "10"
 
-week_hours = day_hours * week_days
-print(week_hours)
+sum1 = x + x
+sum2 = y + y
+
+print(sum1, sum2)
