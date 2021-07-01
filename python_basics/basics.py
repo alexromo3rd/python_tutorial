@@ -1,15 +1,12 @@
-# List
-monday_temperatures = [9.1, 8.8, 7.5]
+def mean(value):
+    if isinstance(value, dict):
+        the_mean = sum(value.values()) / len(value)
+        return the_mean
+    else:
+        the_mean = sum(value) / len(value)
+        return the_mean
 
-# Dictionary
-# student_grades = {"Mary": 9.1, "Sim": 8.8, "John": 7.5}
 
-# Tuple
-# monday_temperatures = (1, 4, 5)
-
-# my_sum = sum(student_grades.values())
-# length = len(student_grades)
-# mean = my_sum / length
-# print(mean)
-
-# print(monday_temperatures)
+monday_temperatures = [8.8, 9.1, 9.9]
+student_grades = {"Marry": 9.1, "Sim": 8.8, "John": 7.5}
+print(mean(monday_temperatures))
